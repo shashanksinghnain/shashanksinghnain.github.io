@@ -16,7 +16,7 @@ profile:
     </center>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
@@ -28,3 +28,5 @@ Previously, I did my Integrated B.S. and M.S. from [IIT Kharagpur](https://www.i
 During my undergraduate studies I worked at the World Bank part-time for 3 years, where I was advised by [Prof. Daniel Li Chen](https://users.nber.org/~dlchen/) and [Prof. Shareen Joshi](https://gufaculty360.georgetown.edu/s/contact/00336000014RYK7AAO/shareen-joshi).
 
 My research centers on the intersection of law and economics, my prior work has focussed on the dynamics of ingroup bias and its impact on water pollution. I am currently engaged in projects that delve into regulatory capture, antitrust, and conflicts of interest.
+
+[CV](https://shashanksinghnain.github.io/assets/pdf/shashank_cv.pdf), updated August 2023
