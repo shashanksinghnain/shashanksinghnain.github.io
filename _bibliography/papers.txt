@@ -1,6 +1,31 @@
 ---
 ---
 
+@article{zingales2024,
+  title = {The Conflict-of-Interest Discount in the Marketplace of
+Ideas},
+  author = {Barrios, John and Lancieri, Filippo and Levy, Joshua and Singh, Shashank and Valletti, Tommaso and Zingales, Luigi},
+  abstract={We conduct a survey of economists and a representative sample of Americans to
+infer the reduction in the perceived value of a paper when its authors have conflicts
+of interest (CoI), i.e., they have financial, professional, or ideological stakes in the
+outcome of the results. On average, a CoI decreases trust in the conclusions of an
+economics paper by 30%. This reduction in trust reflects a combination of the
+frequency of conflicted papers and the bias of papers when they are conflicted. To
+isolate the second term, we introduce a key construct: the CoI Discount, which
+measures the reduction in the value of a conflicted paper relative to a nonconflicted one. We show that, on average, conflicted papers are worth less than
+half of non-conflicted ones, though this effect varies significantly depending on the
+nature of the conflict. The discount is more pronounced when the conflict involves
+the interest of a private rather than a public entity. Restricted data access also leads
+to a substantial discount. We validate our survey based estimates by comparing
+them to actual biases observed in conflicted papers within the economics and
+medical literature.},
+  year = {2024},
+  note = {Working Paper},
+  html={https://www.chicagobooth.edu/-/media/research/stigler/pdfs/workingpapers/348theconflictofinterestdiscountinthemarketplaceofideas.pdf},
+  abbr={Working Paper},
+  selected={true}
+}
+
 @article{wb_env,
   title = {Litigation as Scrutiny: A Four Decade Analysis of
 Environmental Justice, Firms, and Pollution in India},
