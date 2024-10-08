@@ -30,4 +30,4 @@ Previously, I completed my Integrated B.S. and M.S. from [IIT Kharagpur](https:/
 During my undergraduate studies I worked at the World Bank part-time for 3 years, where I was advised by [Prof. Daniel Li Chen](https://users.nber.org/~dlchen/) and [Prof. Shareen Joshi](https://gufaculty360.georgetown.edu/s/contact/00336000014RYK7AAO/shareen-joshi).
 
 
-Here is my [CV](https://shashanksinghnain.github.io/assets/pdf/shashank_cv.pdf), updated August 2023
+Here is my [CV](https://shashanksinghnain.github.io/assets/pdf/shashank_cv.pdf), updated October 2024
