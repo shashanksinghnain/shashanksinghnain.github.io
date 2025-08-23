@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Incoming PhD Student @ <a href='https://haas.berkeley.edu/bpp/'>Berkeley Haas BPP</a> | <a href='shashank.singh@berkeley.edu'>shashank.singh@berkeley.edu</a>
+subtitle: PhD Student @ <a href='https://haas.berkeley.edu/bpp/'>Berkeley Haas BPP</a> | <a href='shashank.singh@berkeley.edu'>shashank.singh@berkeley.edu</a>
 
 
 profile:
