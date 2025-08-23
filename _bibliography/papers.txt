@@ -36,7 +36,7 @@ medical literature.},
   note = {ICAIL 2025, Northwestern University},
   html={https://drive.google.com/file/d/1E3g-9Cipi13uCVGD9gFXsjoe96KtKxsO/view?usp=sharing},
   abbr={Workshop Paper},
-  selected={false}
+  selected={true}
 }
 
 @article{wb_env,
@@ -48,10 +48,10 @@ no impact on infant mortality rates in subsequent months. Several years post-dec
 and mortality rates exceed pre-decision levels. This analysis highlights the potentially limited
 effects of judicial environmental policies in high pollution settings such as India.},
   year = {2023},
-  note = {Working Paper},
+  note = {Revise and Resubmit. Journal of Environmental Economics and Management},
   html={https://papers.ssrn.com/abstract=5013333},
-  abbr={Working Paper},
-  selected={false}
+  abbr={R&R},
+  selected={true}
 }
 
 @article{chen_do_Year,
@@ -62,7 +62,7 @@ effects of judicial environmental policies in high pollution settings such as In
   note = {Revise and Resubmit. Journal of Law & Empirical Analysis},
   html={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4462696},
   abbr={R&R},
-  selected={false}
+  selected={true}
 }
 
 
@@ -84,8 +84,8 @@ we extract using a large langauge model. Finally, we argue that our framework co
 serve as a more complete lens through which to decipher the cognitive underpinnings
 of judicial biases.},
   year = {2023},
-  note = {Working Paper},
+  note = {Revise and Resubmit. International Review of Law and Economics},
   html={https://drive.google.com/file/d/1Lwk8aaBT_Tyd9d_jC6fc0_wnW704PDdB/view?usp=sharing},
   abbr={Working Paper},
-  selected={false}
+  selected={true}
 }
