@@ -30,10 +30,30 @@ $grey-900:            #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Berkeley-inspired brand palette (light mode)
+$berkeley-blue:       #003262 !default;
+$founders-rock:       #3B7EA1 !default;
+$california-gold:     #FDB515 !default;
+$bronze-gold:         #7A5A10 !default;   // dark bronze-gold (light primary)
+$bronze-gold-hover:   #8B6914 !default;   // slightly lighter goldenrod (light hover)
+$warm-paper:          #F5F0E1 !default;
+$warm-paper-light:    #FBF7EA !default;
+$warm-cream:          #E8E3D3 !default;
+$warm-text-ink:       #2B2A26 !default;
+$warm-muted-light:    #6B665C !default;
+
+// Old-leather dark mode palette
+$leather-bg:          #332419 !default;   // warm dark brown (dark bg)
+$leather-card:        #40301E !default;   // card lift
+$leather-footer:      #2A1B10 !default;   // deeper footer tone
+$leather-muted:       #B8A888 !default;   // warm muted beige for subtitles
+$caramel-amber:       #D4A574 !default;   // warm amber (dark-mode link/theme color)
+$caramel-amber-hover: #E6B785 !default;   // lifted amber (hover)
+
 // Theme colors
 
-$code-bg-color-light:     rgba($purple-color, 0.05);
-$code-bg-color-dark:      #2c3237 !default;
+$code-bg-color-light:     rgba($berkeley-blue, 0.05);
+$code-bg-color-dark:      rgba(212, 165, 116, 0.08);
 
 // Font awesome location
 $fa-font-path: "../webfonts";
