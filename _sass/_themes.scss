@@ -3,20 +3,20 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$warm-paper};
+  --global-bg-color: #{$light-bg};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$warm-text-ink};
-  --global-text-color-light: #{$warm-muted-light};
-  --global-theme-color: #{$bronze-gold};
-  --global-hover-color: #{$bronze-gold-hover};
-  --global-hover-text-color: #{$warm-paper};
-  --global-footer-bg-color: #{$warm-paper};
-  --global-footer-text-color: #{$warm-muted-light};
-  --global-footer-link-color: #{$bronze-gold};
-  --global-distill-app-color: #{$warm-muted-light};
-  --global-divider-color: rgba(43, 42, 38, 0.06);
-  --global-card-bg-color: #{$warm-paper-light};
-  --global-accent-color: #{$berkeley-blue};
+  --global-text-color: #{$light-text};
+  --global-text-color-light: #{$light-muted};
+  --global-theme-color: #{$apple-blue};
+  --global-hover-color: #{$apple-blue-hover};
+  --global-hover-text-color: #FFFFFF;
+  --global-footer-bg-color: #{$light-bg-secondary};
+  --global-footer-text-color: #{$light-muted};
+  --global-footer-link-color: #{$apple-blue};
+  --global-distill-app-color: #{$light-muted};
+  --global-divider-color: rgba(0, 0, 0, 0.06);
+  --global-card-bg-color: #{$light-bg-secondary};
+  --global-accent-color: #{$apple-blue};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -49,20 +49,20 @@
 }
 
 html[data-theme='dark'] {
-  --global-bg-color: #{$leather-bg};
+  --global-bg-color: #{$dark-bg};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$warm-paper};
-  --global-text-color-light: #{$leather-muted};
-  --global-theme-color: #{$caramel-amber};
-  --global-hover-color: #{$caramel-amber-hover};
-  --global-hover-text-color: #{$leather-bg};
-  --global-footer-bg-color: #{$leather-footer};
-  --global-footer-text-color: #{$leather-muted};
-  --global-footer-link-color: #{$caramel-amber};
-  --global-distill-app-color: #{$leather-muted};
-  --global-divider-color: rgba(245, 240, 225, 0.08);
-  --global-card-bg-color: #{$leather-card};
-  --global-accent-color: #{$caramel-amber};
+  --global-text-color: #FFFFFF;
+  --global-text-color-light: #{$dark-muted};
+  --global-theme-color: #{$cyan-accent};
+  --global-hover-color: #{$cyan-accent-hover};
+  --global-hover-text-color: #FFFFFF;
+  --global-footer-bg-color: #{$dark-footer};
+  --global-footer-text-color: #{$dark-muted};
+  --global-footer-link-color: #{$cyan-accent};
+  --global-distill-app-color: #{$dark-muted};
+  --global-divider-color: rgba(255, 255, 255, 0.08);
+  --global-card-bg-color: #{$dark-card};
+  --global-accent-color: #{$cyan-accent};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -93,10 +93,9 @@ html[data-theme='dark'] {
     display: block;
   }
 
-  // Publications venue badge: dark leather text on the caramel badge bg
-  // Covers both linked venues (<abbr><a>...</a></abbr>) and plain ones ("Working Paper", "R&R")
+  // Publications venue badge text on the accent badge bg
   .publications ol.bibliography li .abbr abbr,
   .publications ol.bibliography li .abbr abbr a {
-    color: #{$leather-bg} !important;
+    color: #FFFFFF !important;
   }
 }
