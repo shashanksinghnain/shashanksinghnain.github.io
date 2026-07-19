@@ -18,7 +18,12 @@ layout: default
       <p class="zen-eyebrow">About</p>
       <h1 id="about-title">{{ page.intro }}</h1>
       <div class="zen-about-text">{{ content }}</div>
-      <a class="zen-text-link" href="{{ '/assets/pdf/shashank_cv.pdf' | relative_url }}">Read my CV <span aria-hidden="true">↗</span></a>
+      <a class="zen-text-link" href="{{ '/assets/pdf/shashank_cv.pdf' | relative_url }}">
+        Read my CV
+        <svg class="zen-link-arrow" aria-hidden="true" viewBox="0 0 12 12">
+          <path d="M3 9 9 3M4 3h5v5" />
+        </svg>
+      </a>
     </div>
   </section>
 

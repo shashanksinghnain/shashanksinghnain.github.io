@@ -138,7 +138,7 @@ summary:focus-visible {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 15px;
     font-style: italic;
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -156,28 +156,76 @@ html[data-theme='dark'] .zen-portrait img { filter: saturate(0.78) brightness(0.
 .zen-about-copy h1 {
   max-width: 690px;
   margin: 0;
-  font-size: clamp(36px, 5vw, 56px);
-  line-height: 1.12;
-  letter-spacing: -0.02em;
+  color: var(--global-text-color);
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.65;
+  letter-spacing: 0;
 }
 
 .zen-about-text {
   max-width: 640px;
   margin-top: 36px;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
   font-size: 17px;
 
+  p,
   a { color: var(--global-text-color); }
 }
 
 .zen-text-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   margin-top: 14px;
   color: var(--global-theme-color);
   font-size: 14px;
   border-bottom: 1px solid currentColor;
 
   &:hover { color: var(--global-text-color); text-decoration: none; }
+}
+
+.zen-link-arrow {
+  width: 11px;
+  height: 11px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-linejoin: miter;
+  stroke-width: 1.25;
+}
+
+.zen-blog {
+  min-height: 58vh;
+  padding: clamp(76px, 10vw, 120px) 0;
+
+  .zen-blog-label {
+    margin: 4px 0 42px;
+    color: var(--global-text-color-light);
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.13em;
+    line-height: 1.65;
+    text-transform: uppercase;
+  }
+
+  p {
+    max-width: 720px;
+    margin: 0;
+    color: var(--global-text-color-light);
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: clamp(24px, 3vw, 34px);
+    line-height: 1.35;
+  }
+
+  .zen-text-link {
+    margin-top: 34px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 14px;
+  }
 }
 
 .zen-research {
