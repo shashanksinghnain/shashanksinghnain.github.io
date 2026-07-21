@@ -1,6 +1,19 @@
 <header class="zen-site-header">
   <nav class="container" aria-label="Primary navigation">
-    <a class="zen-wordmark" href="{{ '/' | relative_url }}">{{ site.first_name }} {{ site.last_name }}</a>
+    <div class="zen-brand">
+      <a class="zen-wordmark" href="{{ '/' | relative_url }}">{{ site.first_name }} {{ site.last_name }}</a>
+      <div class="zen-institution-seals" aria-label="Academic affiliations">
+        <a href="https://www.berkeley.edu/" target="_blank" rel="noopener noreferrer" aria-label="University of California, Berkeley">
+          <img src="{{ '/assets/img/berkeley_logo.png' | relative_url }}" alt="" width="64" height="64">
+        </a>
+        <a href="https://www.uchicago.edu/" target="_blank" rel="noopener noreferrer" aria-label="University of Chicago">
+          <img src="{{ '/assets/img/uchicago_seal.png' | relative_url }}" alt="" width="128" height="128">
+        </a>
+        <a href="https://www.iitkgp.ac.in/" target="_blank" rel="noopener noreferrer" aria-label="Indian Institute of Technology Kharagpur">
+          <img src="{{ '/assets/img/iitkgp_seal.svg' | relative_url }}" alt="" width="268" height="300">
+        </a>
+      </div>
+    </div>
     <div class="zen-nav-links">
       <a class="zen-about-link" href="{{ '/' | relative_url }}">About</a>
       <a href="{{ '/research/' | relative_url }}">Research</a>

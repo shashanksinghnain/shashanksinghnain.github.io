@@ -57,7 +57,7 @@ summary:focus-visible {
   background: var(--global-bg-color);
 
   nav {
-    min-height: 88px;
+    min-height: 112px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,6 +72,45 @@ summary:focus-visible {
     letter-spacing: 0.02em;
     white-space: nowrap;
   }
+}
+
+.zen-brand {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+.zen-institution-seals {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  a {
+    display: grid;
+    width: 27px;
+    height: 27px;
+    place-items: center;
+    border-radius: 50%;
+    transition: opacity 150ms ease, transform 150ms ease;
+
+    &:hover {
+      opacity: 0.72;
+      transform: translateY(-1px);
+    }
+  }
+
+  img {
+    display: block;
+    width: 27px;
+    height: 27px;
+    object-fit: contain;
+  }
+}
+
+html[data-theme='dark'] .zen-institution-seals img {
+  filter: brightness(1.12) saturate(0.9);
 }
 
 .zen-nav-links {
@@ -393,8 +432,12 @@ html[data-theme='dark'] .zen-portrait img { filter: saturate(0.78) brightness(0.
 }
 
 @media (max-width: 700px) {
-  .zen-site-header nav { min-height: 74px; }
+  .zen-site-header nav { min-height: 96px; gap: 18px; }
   .zen-site-header .zen-wordmark { font-size: 18px; }
+  .zen-brand { gap: 5px; }
+  .zen-institution-seals { gap: 7px; }
+  .zen-institution-seals a,
+  .zen-institution-seals img { width: 23px; height: 23px; }
   .zen-nav-links { gap: 14px; }
   .zen-about-link { display: none; }
 
